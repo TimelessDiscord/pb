@@ -46,7 +46,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 class piratebay(object):
     """ Search engine class """
-    url = 'https://tpbproxy.bz/'
+    url = 'https://www.tpbproxy.bz/'
     name = 'The Pirate Bay'
     supported_categories = {'all': '0', 'music': '100', 'movies': '200',
                             'games': '400', 'software': '300'}
